@@ -1,7 +1,7 @@
 # Safe Genocide
 
 [![GitHub release](https://img.shields.io/github/release/allejo/safeGenocide.svg)](https://github.com/allejo/safeGenocide/releases/latest)
-![Minimum BZFlag Version](https://img.shields.io/badge/BZFlag-v2.4.0+-blue.svg)
+![Minimum BZFlag Version](https://img.shields.io/badge/BZFlag-v2.4.4+-blue.svg)
 [![License](https://img.shields.io/github/license/allejo/safeGenocide.svg)](LICENSE.md)
 
 A BZFlag plug-in that introduces the "Safe Genocide (SG)" flag, which is just like Genocide but without the mass killing.
