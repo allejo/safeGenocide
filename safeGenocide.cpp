@@ -86,7 +86,7 @@ void SafeGenocide::Event(bz_EventData* eventData)
             {
                 int genoPoints = calcGenoPoints(victimTeam);
 
-                if (killerTeam == victimTeam)
+                if (killerTeam == victimTeam && killerTeam != eRogueTeam)
                 {
                     bz_incrementPlayerLosses(killerID, genoPoints);
                 }
