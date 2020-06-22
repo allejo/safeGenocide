@@ -1,0 +1,15 @@
+branches:
+  - &master_branch_definition
+    name: master
+    protection: &master_branch_protection
+      required_pull_request_reviews: null
+      required_status_checks: null
+      enforce_admins: true
+      restrictions: null
+
+  - <<: *master_branch_definition
+    name: "release"
+
+  # Protect branches for older versions of projects
+  - <<: *master_branch_definition
+    name: "?.?"
