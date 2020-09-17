@@ -57,7 +57,7 @@ const char* SafeGenocide::Name()
     return pluginName.c_str();
 }
 
-void SafeGenocide::Init(const char* config)
+void SafeGenocide::Init(const char* /* config */)
 {
     Register(bz_ePlayerDieEvent);
 
